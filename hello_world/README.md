@@ -5,3 +5,4 @@
 2-assembler: Generates assembly code from the C source file named in CFILE.
 4-puts.c: Prints the required sentence using puts.
 5-printf.c: Prints the required sentence using printf.
+6-size.c: Prints the sizes of various C data types in bytes.
