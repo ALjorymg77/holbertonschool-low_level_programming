@@ -13,3 +13,4 @@
 10-add.c: Adds two integers and returns their sum.
 11-print_to_98.c: Prints integers from a starting number to 98.
 100-times_table.c: Prints a multiplication table for n from 0 to 15.
+101-natural.c: Computes the sum of multiples of 3 or 5 below 1024.
