@@ -7,3 +7,4 @@
 6-print_numberz.c: Prints digits using an integer variable and putchar.
 7-print_tebahpla.c: Prints the lowercase alphabet in reverse followed by a newline.
 8-print_base16.c: Prints hexadecimal digits in lowercase followed by a newline.
+9-print_comb.c: Prints single digits separated by commas and spaces.
