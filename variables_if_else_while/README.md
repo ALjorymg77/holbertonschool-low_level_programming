@@ -5,3 +5,4 @@
 4-print_alphabt.c: Prints the lowercase alphabet except e and q.
 5-print_numbers.c: Prints the digits from 0 to 9 followed by a newline.
 6-print_numberz.c: Prints digits using an integer variable and putchar.
+7-print_tebahpla.c: Prints the lowercase alphabet in reverse followed by a newline.
