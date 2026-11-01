@@ -4,3 +4,4 @@
 1-alphabet.c: Defines a function that prints the lowercase alphabet.
 2-print_alphabet_x10.c: Prints the lowercase alphabet ten times.
 3-islower.c: Checks whether a character is lowercase.
+4-isalpha.c: Checks whether a character is an alphabetic letter.
