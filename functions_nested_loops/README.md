@@ -5,3 +5,4 @@
 2-print_alphabet_x10.c: Prints the lowercase alphabet ten times.
 3-islower.c: Checks whether a character is lowercase.
 4-isalpha.c: Checks whether a character is an alphabetic letter.
+5-sign.c: Prints the sign of a number and returns its sign value.
