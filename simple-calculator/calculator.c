@@ -29,7 +29,21 @@ int main(void)
 			return (0);
 		}
 
-		if (choice < 1 || choice > 4)
-			puts("Invalid choice");
+		if (choice == 1)
+{
+	double a, b;
+
+	printf("A: ");
+	if (scanf("%lf", &a) != 1)
+		return (0);
+
+	printf("B: ");
+	if (scanf("%lf", &b) != 1)
+		return (0);
+
+	printf("Result: %g\n", a + b);
+}
+else if (choice < 1 || choice > 4)
+	puts("Invalid choice");
 	}
 }
