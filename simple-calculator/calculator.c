@@ -29,7 +29,7 @@ int main(void)
 			return (0);
 		}
 
-		if (choice >= 1 && choice <= 3)
+		if (choice >= 1 && choice <= 4)
 {
 	double a, b;
 
@@ -45,8 +45,12 @@ int main(void)
 	printf("Result: %g\n", a + b);
 else if (choice == 2)
 	printf("Result: %g\n", a - b);
-else
+else if (choice == 3)
 	printf("Result: %g\n", a * b);
+else if (b == 0.0)
+	puts("Error: division by zero");
+else
+	printf("Result: %g\n", a / b);
 }
 else if (choice < 1 || choice > 4)
 	puts("Invalid choice");
