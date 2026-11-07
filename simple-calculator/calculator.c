@@ -29,7 +29,7 @@ int main(void)
 			return (0);
 		}
 
-		if (choice == 1)
+		if (choice == 1 || choice == 2)
 {
 	double a, b;
 
@@ -41,7 +41,10 @@ int main(void)
 	if (scanf("%lf", &b) != 1)
 		return (0);
 
+	if (choice == 1)
 	printf("Result: %g\n", a + b);
+else
+	printf("Result: %g\n", a - b);
 }
 else if (choice < 1 || choice > 4)
 	puts("Invalid choice");
