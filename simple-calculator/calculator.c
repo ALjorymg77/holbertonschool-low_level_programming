@@ -29,7 +29,7 @@ int main(void)
 			return (0);
 		}
 
-		if (choice == 1 || choice == 2)
+		if (choice >= 1 && choice <= 3)
 {
 	double a, b;
 
@@ -43,8 +43,10 @@ int main(void)
 
 	if (choice == 1)
 	printf("Result: %g\n", a + b);
-else
+else if (choice == 2)
 	printf("Result: %g\n", a - b);
+else
+	printf("Result: %g\n", a * b);
 }
 else if (choice < 1 || choice > 4)
 	puts("Invalid choice");
