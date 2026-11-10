@@ -8,20 +8,18 @@
  */
 char *rot13(char *s)
 {
-const char letters[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-       "abcdefghijklmnopqrstuvwxyz";
-const char rotated[] = "NOPQRSTUVWXYZABCDEFGHIJKLM"
-       "nopqrstuvwxyzabcdefghijklm";
+char from[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+char to[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 char *current;
 int i;
 
 for (current = s; *current != '\0'; current++)
 {
-for (i = 0; letters[i] != '\0'; i++)
+for (i = 0; from[i] != '\0'; i++)
 {
-if (*current == letters[i])
+if (*current == from[i])
 {
-*current = rotated[i];
+*current = to[i];
 break;
 }
 }
